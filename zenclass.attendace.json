@@ -1,0 +1,275 @@
+[{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacb3"
+  },
+  "userid": 1,
+  "topicid": 1,
+  "attendace": false,
+  "topicDate": {
+    "$date": "2020-10-12T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacb4"
+  },
+  "userid": 2,
+  "topicid": 1,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-12T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacb5"
+  },
+  "userid": 3,
+  "topicid": 1,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-12T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacb6"
+  },
+  "userid": 4,
+  "topicid": 1,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-12T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacb7"
+  },
+  "userid": 5,
+  "topicid": 1,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-12T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacb8"
+  },
+  "userid": 1,
+  "topicid": 2,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-13T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacb9"
+  },
+  "userid": 2,
+  "topicid": 2,
+  "attendace": false,
+  "topicDate": {
+    "$date": "2020-10-13T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacba"
+  },
+  "userid": 3,
+  "topicid": 2,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-13T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacbb"
+  },
+  "userid": 4,
+  "topicid": 2,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-13T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacbc"
+  },
+  "userid": 5,
+  "topicid": 2,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-13T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacbd"
+  },
+  "userid": 1,
+  "topicid": 3,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacbe"
+  },
+  "userid": 2,
+  "topicid": 3,
+  "attendace": false,
+  "topicDate": {
+    "$date": "2020-10-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacbf"
+  },
+  "userid": 3,
+  "topicid": 3,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacc0"
+  },
+  "userid": 4,
+  "topicid": 3,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacc1"
+  },
+  "userid": 5,
+  "topicid": 3,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacc2"
+  },
+  "userid": 1,
+  "topicid": 4,
+  "attendace": false,
+  "topicDate": {
+    "$date": "2020-10-16T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacc3"
+  },
+  "userid": 2,
+  "topicid": 4,
+  "attendace": false,
+  "topicDate": {
+    "$date": "2020-10-16T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacc4"
+  },
+  "userid": 3,
+  "topicid": 4,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-16T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacc5"
+  },
+  "userid": 4,
+  "topicid": 4,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-16T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacc6"
+  },
+  "userid": 5,
+  "topicid": 4,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-16T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacc7"
+  },
+  "userid": 1,
+  "topicid": 5,
+  "attendace": false,
+  "topicDate": {
+    "$date": "2020-10-17T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacc8"
+  },
+  "userid": 2,
+  "topicid": 5,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-17T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacc9"
+  },
+  "userid": 3,
+  "topicid": 5,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-17T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbacca"
+  },
+  "userid": 4,
+  "topicid": 5,
+  "attendace": true,
+  "topicDate": {
+    "$date": "2020-10-17T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da160dad2b242a81fbaccb"
+  },
+  "userid": 5,
+  "topicid": 5,
+  "attendace": false,
+  "topicDate": {
+    "$date": "2020-10-17T00:00:00.000Z"
+  }
+}]

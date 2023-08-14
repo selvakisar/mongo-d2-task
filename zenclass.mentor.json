@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "64d9e8d2ee62947e7618d6fd"
+  },
+  "mentorid": 1,
+  "m_name": "goku",
+  "topic": "html",
+  "mentees": 16
+},
+{
+  "_id": {
+    "$oid": "64d9e8d2ee62947e7618d6fe"
+  },
+  "mentorid": 2,
+  "m_name": "vegita",
+  "topic": "database",
+  "mentees": 18
+},
+{
+  "_id": {
+    "$oid": "64d9e8d2ee62947e7618d6ff"
+  },
+  "mentorid": 3,
+  "m_name": "picolo",
+  "topic": "javascript",
+  "mentees": 12
+}]

@@ -1,0 +1,325 @@
+[{
+  "_id": {
+    "$oid": "64d9fb2fee62947e7618d705"
+  },
+  "tid": 1,
+  "topicid": 1,
+  "userid": 1,
+  "taskname": "html",
+  "subDate": {
+    "$date": "2020-10-13T00:00:00.000Z"
+  },
+  "submit_status": false
+},
+{
+  "_id": {
+    "$oid": "64da00a6ee62947e7618d706"
+  },
+  "tid": 2,
+  "topicid": 2,
+  "userid": 1,
+  "taskname": "database",
+  "subDate": {
+    "$date": "2020-10-15T00:00:00.000Z"
+  },
+  "submit": true
+},
+{
+  "_id": {
+    "$oid": "64da00a6ee62947e7618d707"
+  },
+  "tid": 3,
+  "topicid": 3,
+  "userid": 1,
+  "taskname": "javascript",
+  "subDate": {
+    "$date": "2020-10-16T00:00:00.000Z"
+  },
+  "submit": true
+},
+{
+  "_id": {
+    "$oid": "64da00a6ee62947e7618d708"
+  },
+  "tid": 4,
+  "topicid": 4,
+  "userid": 1,
+  "taskname": "react",
+  "subDate": {
+    "$date": "2020-10-17T00:00:00.000Z"
+  },
+  "submit": false
+},
+{
+  "_id": {
+    "$oid": "64da00a6ee62947e7618d709"
+  },
+  "tid": 5,
+  "topicid": 5,
+  "userid": 1,
+  "taskname": "database",
+  "subDate": {
+    "$date": "2020-10-18T00:00:00.000Z"
+  },
+  "submit": false
+},
+{
+  "_id": {
+    "$oid": "64da02a1ee62947e7618d70b"
+  },
+  "tid": 1,
+  "topicid": 1,
+  "userid": 2,
+  "taskname": "html",
+  "subDate": {
+    "$date": "2020-10-13T00:00:00.000Z"
+  },
+  "submit": false
+},
+{
+  "_id": {
+    "$oid": "64da02a1ee62947e7618d70c"
+  },
+  "tid": 2,
+  "topicid": 2,
+  "userid": 2,
+  "taskname": "database",
+  "subDate": {
+    "$date": "2020-10-15T00:00:00.000Z"
+  },
+  "submit": true
+},
+{
+  "_id": {
+    "$oid": "64da02a1ee62947e7618d70d"
+  },
+  "tid": 3,
+  "topicid": 3,
+  "userid": 2,
+  "taskname": "javascript",
+  "subDate": {
+    "$date": "2020-10-16T00:00:00.000Z"
+  },
+  "submit": true
+},
+{
+  "_id": {
+    "$oid": "64da02a1ee62947e7618d70e"
+  },
+  "tid": 4,
+  "topicid": 4,
+  "userid": 2,
+  "taskname": "react",
+  "subDate": {
+    "$date": "2020-10-17T00:00:00.000Z"
+  },
+  "submit": true
+},
+{
+  "_id": {
+    "$oid": "64da02a1ee62947e7618d70f"
+  },
+  "tid": 5,
+  "topicid": 5,
+  "userid": 2,
+  "taskname": "database",
+  "subDate": {
+    "$date": "2020-10-18T00:00:00.000Z"
+  },
+  "submit": false
+},
+{
+  "_id": {
+    "$oid": "64da02c8ee62947e7618d710"
+  },
+  "tid": 1,
+  "topicid": 1,
+  "userid": 3,
+  "taskname": "html",
+  "subDate": {
+    "$date": "2020-10-13T00:00:00.000Z"
+  },
+  "submit": false
+},
+{
+  "_id": {
+    "$oid": "64da02c8ee62947e7618d711"
+  },
+  "tid": 2,
+  "topicid": 2,
+  "userid": 3,
+  "taskname": "database",
+  "subDate": {
+    "$date": "2020-10-15T00:00:00.000Z"
+  },
+  "submit": false
+},
+{
+  "_id": {
+    "$oid": "64da02c8ee62947e7618d712"
+  },
+  "tid": 3,
+  "topicid": 3,
+  "userid": 3,
+  "taskname": "javascript",
+  "subDate": {
+    "$date": "2020-10-16T00:00:00.000Z"
+  },
+  "submit": true
+},
+{
+  "_id": {
+    "$oid": "64da02c8ee62947e7618d713"
+  },
+  "tid": 4,
+  "topicid": 4,
+  "userid": 3,
+  "taskname": "react",
+  "subDate": {
+    "$date": "2020-10-17T00:00:00.000Z"
+  },
+  "submit": false
+},
+{
+  "_id": {
+    "$oid": "64da02c8ee62947e7618d714"
+  },
+  "tid": 5,
+  "topicid": 5,
+  "userid": 3,
+  "taskname": "database",
+  "subDate": {
+    "$date": "2020-10-18T00:00:00.000Z"
+  },
+  "submit": true
+},
+{
+  "_id": {
+    "$oid": "64da0318ee62947e7618d715"
+  },
+  "tid": 1,
+  "topicid": 1,
+  "userid": 4,
+  "taskname": "html",
+  "subDate": {
+    "$date": "2020-10-13T00:00:00.000Z"
+  },
+  "submit": false
+},
+{
+  "_id": {
+    "$oid": "64da0318ee62947e7618d716"
+  },
+  "tid": 2,
+  "topicid": 2,
+  "userid": 4,
+  "taskname": "database",
+  "subDate": {
+    "$date": "2020-10-15T00:00:00.000Z"
+  },
+  "submit": true
+},
+{
+  "_id": {
+    "$oid": "64da0318ee62947e7618d717"
+  },
+  "tid": 3,
+  "topicid": 3,
+  "userid": 4,
+  "taskname": "javascript",
+  "subDate": {
+    "$date": "2020-10-16T00:00:00.000Z"
+  },
+  "submit": true
+},
+{
+  "_id": {
+    "$oid": "64da0318ee62947e7618d718"
+  },
+  "tid": 4,
+  "topicid": 4,
+  "userid": 4,
+  "taskname": "react",
+  "subDate": {
+    "$date": "2020-10-17T00:00:00.000Z"
+  },
+  "submit": true
+},
+{
+  "_id": {
+    "$oid": "64da0318ee62947e7618d719"
+  },
+  "tid": 5,
+  "topicid": 5,
+  "userid": 4,
+  "taskname": "database",
+  "subDate": {
+    "$date": "2020-10-18T00:00:00.000Z"
+  },
+  "submit": false
+},
+{
+  "_id": {
+    "$oid": "64da0358ee62947e7618d71a"
+  },
+  "tid": 1,
+  "topicid": 1,
+  "userid": 5,
+  "taskname": "html",
+  "subDate": {
+    "$date": "2020-10-13T00:00:00.000Z"
+  },
+  "submit": false
+},
+{
+  "_id": {
+    "$oid": "64da0358ee62947e7618d71b"
+  },
+  "tid": 2,
+  "topicid": 2,
+  "userid": 5,
+  "taskname": "database",
+  "subDate": {
+    "$date": "2020-10-15T00:00:00.000Z"
+  },
+  "submit": false
+},
+{
+  "_id": {
+    "$oid": "64da0358ee62947e7618d71c"
+  },
+  "tid": 3,
+  "topicid": 3,
+  "userid": 5,
+  "taskname": "javascript",
+  "subDate": {
+    "$date": "2020-10-16T00:00:00.000Z"
+  },
+  "submit": true
+},
+{
+  "_id": {
+    "$oid": "64da0358ee62947e7618d71d"
+  },
+  "tid": 4,
+  "topicid": 4,
+  "userid": 5,
+  "taskname": "react",
+  "subDate": {
+    "$date": "2020-10-17T00:00:00.000Z"
+  },
+  "submit": false
+},
+{
+  "_id": {
+    "$oid": "64da0358ee62947e7618d71e"
+  },
+  "tid": 5,
+  "topicid": 5,
+  "userid": 5,
+  "taskname": "database",
+  "subDate": {
+    "$date": "2020-10-18T00:00:00.000Z"
+  },
+  "submit": true
+}]
