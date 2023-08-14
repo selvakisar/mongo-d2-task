@@ -1,0 +1,195 @@
+// To Find all the company drives that appeared between October 15, 2020, and October 31, 2020              |
+db.companydrives.find({"appeared":{$gte: ISODate("2020-10-15"),$lte: ISODate("2020-10-31")}})               |
+                                                                                                             |
+[
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacd1"),
+      company: 'zoho',
+      appeared: ISODate("2020-10-15T00:00:00.000Z"),
+      userid: 1,
+      attend: false
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacd2"),
+      company: 'zoho',
+      appeared: ISODate("2020-10-15T00:00:00.000Z"),
+      userid: 2,
+      attend: true
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacd3"),
+      company: 'zoho',
+      appeared: ISODate("2020-10-15T00:00:00.000Z"),
+      userid: 3,
+      attend: true
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacd4"),
+      company: 'zoho',
+      appeared: ISODate("2020-10-15T00:00:00.000Z"),
+      userid: 4,
+      attend: false
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacd5"),
+      company: 'zoho',
+      appeared: ISODate("2020-10-15T00:00:00.000Z"),
+      userid: 5,
+      attend: true
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacd6"),
+      company: 'cts',
+      appeared: ISODate("2020-10-16T00:00:00.000Z"),
+      userid: 1,
+      attend: true
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacd7"),
+      company: 'cts',
+      appeared: ISODate("2020-10-16T00:00:00.000Z"),
+      userid: 2,
+      attend: false
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacd8"),
+      company: 'cts',
+      appeared: ISODate("2020-10-16T00:00:00.000Z"),
+      userid: 3,
+      attend: true
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacd9"),
+      company: 'cts',
+      appeared: ISODate("2020-10-16T00:00:00.000Z"),
+      userid: 4,
+      attend: false
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacda"),
+      company: 'cts',
+      appeared: ISODate("2020-10-16T00:00:00.000Z"),
+      userid: 5,
+      attend: false
+    }
+  ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// To Find all the company drives and students who appeared for the placement
+db.companydrive.find({"attend": true})
+
+
+
+[
+    {
+      _id: ObjectId("64da1908ad2b242a81fbaccc"),
+      company: 'tcs',
+      appeared: ISODate("2020-10-14T00:00:00.000Z"),
+      userid: 1,
+      attend: true
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbaccd"),
+      company: 'tcs',
+      appeared: ISODate("2020-10-14T00:00:00.000Z"),
+      userid: 2,
+      attend: true
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbaccf"),
+      company: 'tcs',
+      appeared: ISODate("2020-10-14T00:00:00.000Z"),
+      userid: 4,
+      attend: true
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacd2"),
+      company: 'zoho',
+      appeared: ISODate("2020-10-15T00:00:00.000Z"),
+      userid: 2,
+      attend: true
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacd3"),
+      company: 'zoho',
+      appeared: ISODate("2020-10-15T00:00:00.000Z"),
+      userid: 3,
+      attend: true
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacd5"),
+      company: 'zoho',
+      appeared: ISODate("2020-10-15T00:00:00.000Z"),
+      userid: 5,
+      attend: true
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacd6"),
+      company: 'cts',
+      appeared: ISODate("2020-10-16T00:00:00.000Z"),
+      userid: 1,
+      attend: true
+    },
+    {
+      _id: ObjectId("64da1908ad2b242a81fbacd8"),
+      company: 'cts',
+      appeared: ISODate("2020-10-16T00:00:00.000Z"),
+      userid: 3,
+      attend: true
+    }
+  ]
+  
+
+
+
+//   To Find the number of problems solved by a user in codekata
+
+db.codekata.find()
+
+
+[
+    { _id: ObjectId("64d9e682ee62947e7618d6f8"), userid: 1, solved: 60 },
+    { _id: ObjectId("64d9e682ee62947e7618d6f9"), userid: 2, solved: 50 },
+    { _id: ObjectId("64d9e682ee62947e7618d6fa"), userid: 3, solved: 80 },
+    { _id: ObjectId("64d9e682ee62947e7618d6fb"), userid: 4, solved: 30 },
+    { _id: ObjectId("64d9e682ee62947e7618d6fc"), userid: 5, solved: 40 }
+  ]
+
+
+
+
+// To Find all the mentors with a mentee count greater than 15
+
+  db.mentor.find({mentees:{$gt:15}})
+
+
+
+  [
+    {
+      _id: ObjectId("64d9e8d2ee62947e7618d6fd"),
+      mentorid: 1,
+      m_name: 'goku',
+      topic: 'html',
+      mentees: 16
+    },
+    {
+      _id: ObjectId("64d9e8d2ee62947e7618d6fe"),
+      mentorid: 2,
+      m_name: 'vegita',
+      topic: 'database',
+      mentees: 18
+    }
+  ]
